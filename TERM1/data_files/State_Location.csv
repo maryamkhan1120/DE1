@@ -1,0 +1,52 @@
+state,state_abr,latitude,longitude,status
+alaska,AK,61.39,-152.27,legal
+alabama,AL,32.80,-86.81,medical-limited
+arkansas,AR,34.95,-92.38,illegal
+arizona,AZ,33.77,-111.39,medical
+california,CA,36.17,-119.75,decriminalized+medical
+colorado,CO,39.06,-105.33,legal
+connecticut,CT,41.58,-72.76,decriminalized+medical
+district of columbia,DC,38.90,-77.03,legal
+delaware,DE,39.35,-75.51,medical
+florida,FL,27.83,-81.72,medical-limited
+georgia,GA,32.99,-83.65,medical-limited
+hawaii,HI,21.11,-157.53,medical
+iowa,IA,42.00,-93.21,medical-limited
+idaho,ID,44.24,-114.51,illegal
+illinois,IL,40.34,-89.00,medical
+indiana,IN,39.86,-86.26,illegal
+kansas,KS,38.51,-96.80,illegal
+kentucky,KY,37.67,-84.65,medical-limited
+louisiana,LA,31.18,-91.87,illegal
+massachusetts,MA,42.24,-71.53,decriminalized+medical
+maryland,MD,39.07,-76.79,decriminalized+medical
+maine,ME,44.61,-69.40,decriminalized+medical
+michigan,MI,43.35,-84.56,medical
+minnesota,MN,45.73,-93.92,decriminalized+medical
+missouri,MO,38.46,-92.30,illegal
+mississippi,MS,32.77,-89.68,decriminalized
+montana,MT,46.90,-110.33,medical
+north carolina,NC,35.64,-79.84,decriminalized
+north dakota,ND,47.54,-99.79,illegal
+nebraska,NE,41.13,-98.29,decriminalized
+new hampshire,NH,43.41,-71.57,medical
+new jersey,NJ,40.31,-74.51,medical
+new mexico,NM,34.84,-106.24,medical
+nevada,NV,38.42,-117.12,decriminalized+medical
+new york,NY,42.15,-74.94,decriminalized+medical
+ohio,OH,40.37,-82.78,decriminalized
+oklahoma,OK,35.54,-96.92,illegal
+oregon,OR,44.57,-122.13,legal
+pennsylvania,PA,40.58,-77.26,illegal
+rhode island,RI,41.68,-71.51,decriminalized+medical
+south carolina,SC,33.82,-80.91,medical-limited
+south dakota,SD,44.29,-99.46,illegal
+tennessee,TN,35.74,-86.75,medical-limited
+texas,TX,31.11,-97.65,illegal
+utah,UT,40.11,-111.85,illegal
+virginia,VA,37.77,-78.21,medical-limited
+vermont,VT,44.04,-72.71,decriminalized+medical
+washington,WA,47.39,-121.57,legal
+wisconsin,WI,44.26,-89.64,medical-limited
+west virginia,WV,38.47,-80.97,illegal
+wyoming,WY,42.75,-107.21,illegal
