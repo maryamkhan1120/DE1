@@ -32,11 +32,10 @@ This is illustrated in the below figure:
 INSERT FIGURE
 
 Using the created data warehouse I created the following data marts with help of views.. The questions they aim to answer are the following:
-- View 1: Is the price of high quality weed affected by race?
-- View 2: Is the price of medium quality weed affected by race?
-- View 3: Is the price of weed affected by the legal status weed in a specific state?
-- View 4: Is the price of weed affected by the average income and rent of the state?
-- View 5: Price difference in 2015 and 2014 as compared to race?
+- View 1: Is the price of high quality and medium quality weed affected by race?
+- View 2: Is the price of weed affected by the legal status weed in a specific state?
+- View 3: Is the price of weed affected by the average income and rent of the state?
+- View 4: Price difference in 2015 and 2014 as compared to race?
 
 ### Analytical layer
 An analytical layer was created including the relevant columns for the analytics plan. When creating the layer I used inner joins to connect the tables to show only the entries matching the relevant states in the United States.
