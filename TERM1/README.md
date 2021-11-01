@@ -11,7 +11,8 @@ This folder contains the two SQL scripts and the entity relationship diagram cre
 My operational layer consists of 3 tables stored in csv. The first table is centered around weed prices in the United States from 2014-2015, the second table contains demographics for each state in the United States and the last table contains the state location along with the legal status of consuming and selling weed. 
 
 The below EER diagrams represent this star schema with weed_prices table in the center as my fact table.
-INSERT IMAGE
+
+![EER-Diagram.png](https://github.com/maryamkhan1120/DE1/blob/main/TERM1/EER-Diagram.png)
 
 The below diagram shows the relation between all 3 tables:
 - In the weed_price table, every observation is the price recorded for high quality and low quality weed at a particular date in every state
