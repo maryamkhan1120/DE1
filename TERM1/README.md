@@ -41,7 +41,7 @@ Using the created data warehouse I created the following data marts with help of
 An analytical layer was created including the relevant columns for the analytics plan. When creating the layer I used inner joins to connect the tables to show only the entries matching the relevant states in the United States.
 I created the analytical layer on the below shown star schema:
 
-INSERT FIGURE
+![FC025870-46DC-41F4-B0F3-39017DDDC6F3.jpeg](https://github.com/maryamkhan1120/DE1/blob/main/TERM1/FC025870-46DC-41F4-B0F3-39017DDDC6F3.jpeg)
 
 ### Data Mart
 With the help of views, I created four data marts to help answer my analytical questions. 
