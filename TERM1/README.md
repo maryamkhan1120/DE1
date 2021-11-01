@@ -29,7 +29,7 @@ I used the below mentioned steps to make data marts:
 3.	Create ETL pipeline to create data marts for analysis
 This is illustrated in the below figure:
 
-INSERT FIGURE
+![B7727986-6F86-481A-9F4A-EA26B4B09F43.jpeg](https://github.com/maryamkhan1120/DE1/blob/main/TERM1/B7727986-6F86-481A-9F4A-EA26B4B09F43.jpeg)
 
 Using the created data warehouse I created the following data marts with help of views.. The questions they aim to answer are the following:
 - View 1: Is the price of high quality and medium quality weed affected by race?
