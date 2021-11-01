@@ -21,3 +21,38 @@ The below diagram shows the relation between all 3 tables:
 For simplicity purposes and unavailability of data I have assumed that the demographics of the state remained the same from 2014 to 2015.
 
 
+### Analytics plan
+
+I used the below mentioned steps to make data marts:
+1.	Loading up the acquired data
+2.	Create ETL pipeline to create a data warehouse
+3.	Create ETL pipeline to create data marts for analysis
+This is illustrated in the below figure:
+
+INSERT FIGURE
+
+Using the created data warehouse I created the following data marts with help of views.. The questions they aim to answer are the following:
+•	View 1: Is the price of high quality weed affected by race?
+•	View 2: Is the price of medium quality weed affected by race?
+•	View 3: Is the price of weed affected by the legal status weed in a specific state?
+•	View 4: Is the price of weed affected by the average income and rent of the state?
+•	View 5: In 2015 how the price of weed in different states varied according to the race?
+•	View 6: In 2014 how the price of weed in different states varied according to the race?
+•	View 7: Price difference in 2015 and 2014 as compared to race?
+
+### Analytical layer
+An analytical layer was created including the relevant columns for the analytics plan. When creating the layer I used inner joins to connect the tables to show only the entries matching the relevant states in the United States.
+I created the analytical layer on the below shown star schema:
+
+INSERT FIGURE
+
+### Data Mart
+With the help of views, I created four data marts to help answer my analytical questions. 
+1.	The first data mart ‘price_race_analysis’ helps in answering the question whether the price of weed in effected by the percentage of white, black, Asian, Hispanics living in a certain state. 
+2.	The second data mart ‘legal_status_weed’ helps in answering whether the price of weed is effected by the legalization of weed. 
+3.	The third data mart ‘income_rent_weed’ aims to analyze whether the income distribution and the average rent effect the price of weed. 
+4.	The fourth data mart is used to calculate the ‘difference_2015_2014’ in the price of weed when compared with the previous year in relation to the percentage of different ethnic races in the different states of United State.
+
+
+
+
